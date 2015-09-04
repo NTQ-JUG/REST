@@ -21,4 +21,8 @@ public class TaskException extends DomainException {
         super(cause);
     }
 
+    public TaskException(int code, String message, String detailedMessage) {
+        super(code, message, detailedMessage);
+    }
+
 }
